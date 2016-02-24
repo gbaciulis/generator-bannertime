@@ -1,0 +1,30 @@
+{
+  "plugins": [
+    "edit-link",
+    "collapsible-menu",
+    "highlight",
+    "search"
+  ],
+  "pluginsConfig": {
+    "edit-link": {
+      "placement": "left",
+      "base": "https://bitbucket.org/oliverdigital/dev-wiki/wiki/edit",
+      "label": "Edit This Page"
+    }
+  },
+  "links": {
+    "sidebar": {
+      "home": "index.html"
+    },
+    "sharing": {
+      "google": false,
+      "facebook": false,
+      "twitter": false,
+      "weibo": false,
+      "all": false
+    }
+  },
+  "styles": {
+    "website": "assets/styles/website.css"
+  }
+}

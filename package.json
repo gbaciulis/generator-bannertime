@@ -1,0 +1,28 @@
+{
+  "name": "bannertime-documentation",
+  "version": "1.0.0",
+  "description": "Bannertime documentation generator.",
+  "main": "./index.js",
+  "scripts": {
+    "generate-gitbook": "gitbook install ./content && gitbook build ./content ./public",
+    "deploy": "npm run generate-gitbook && bash ./scripts/deploy-gitbook.sh",
+    "generate-wiki": "node ./scripts/generate-wiki.js",
+    "deploy-wiki": "npm run generate-wiki && bash ./scripts/deploy-wiki.sh",
+    "sync-wiki": "bash ./scripts/sync-wiki.sh",
+    "sync-content": "node ./scripts/sync-content.js",
+    "sync": "npm run generate-wiki && npm run sync-wiki && npm run sync-content && npm run deploy",
+    "watch": "gitbook install ./content && gitbook serve ./content ./public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/Pyramidium/bannertime-documentation.git"
+  },
+  "author": "Jay Campbell",
+  "license": "MIT",
+  "homepage": "https://pyramidium.github.io/generator-bannertime",
+  "dependencies": {
+    "fs-jetpack": "^0.7.1",
+    "gitbook-cli": "^1.0.1"
+  }
+}
