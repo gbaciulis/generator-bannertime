@@ -1,17 +1,10 @@
 {
   "plugins": [
-    "edit-link",
     "collapsible-menu",
     "highlight",
-    "search"
+    "search",
+    "copy-code-button"
   ],
-  "pluginsConfig": {
-    "edit-link": {
-      "placement": "left",
-      "base": "https://bitbucket.org/oliverdigital/dev-wiki/wiki/edit",
-      "label": "Edit This Page"
-    }
-  },
   "links": {
     "sidebar": {
       "home": "index.html"

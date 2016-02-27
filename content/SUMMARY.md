@@ -2,7 +2,11 @@
 
 [Introduction](Home.md)
 
-* [Getting started](getting-started.md)
+* [Installation](installation.md)
+  * [Getting started](getting-started.md)
+  * [Answer the Questions](answer-the-questions.md)
+  * [File structure](file-structure.md)
+  * [File breakdown](file-breakdown.md)
 * [Usage](usage.md)
-* [User guide](user-guide.md)
-
+  * [Development](development.md)
+  * [Production](production.md)
