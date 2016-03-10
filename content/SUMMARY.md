@@ -10,3 +10,6 @@
 * [Usage](usage.md)
   * [Development](development.md)
   * [Production](production.md)
+* [Caveats](caveats.md)
+  * [Sizmek uglification](sizmek-uglification.md)
+  * [Webkit overflow](webkit-overflow.md)
